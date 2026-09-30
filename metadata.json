@@ -1,0 +1,10 @@
+{
+  "name": "Musanze Safe Market Field Inspection",
+  "description": "Mobile field inspection prototype for Musanze Safe Markets pilot. Features market stall catalog, strict field validation, camera & gallery evidence capture, in-memory records, and INES SWE 3409 verification support.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

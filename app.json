@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Musanze Safe Market Field Inspection Prototype",
+    "slug": "musanze-safe-market-field-inspection",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#059669"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#059669"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "groupVerificationCode": "MOB-G04-8924",
+      "course": "SWE 3409 Mobile Application Development",
+      "institution": "Institut d'Enseignement Supérieur de Ruhengeri (INES-Ruhengeri)"
+    }
+  }
+}
